@@ -6,7 +6,7 @@ Docker image to install and run WS02 Data Services Server . It uses the [dockerf
 
 The dockerfile will:
 
-* Use `wget` to pull the DSS 3.2.2 ZIP from WS02 web server into the container `/opt` folder.
+* Use `wget` to pull the DSS 3.5.1 ZIP from WS02 web server into the container `/opt` folder.
 * Install `zip`.
 * Unzip the DSS 3.5.1 ZIP.
 * Remove the DSS 3.5.1 ZIP.
