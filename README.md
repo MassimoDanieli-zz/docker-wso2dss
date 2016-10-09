@@ -8,14 +8,14 @@ The dockerfile will:
 
 * Use `wget` to pull the DSS 3.2.2 ZIP from WS02 web server into the container `/opt` folder.
 * Install `zip`.
-* Unzip the DSS 3.2.2 ZIP.
-* Remove the DSS 3.2.2 ZIP.
-* Expose the container port `9443`.
-* Set the API Manager `wso2server.sh` start-up script as the container start-up command.
+* Unzip the DSS 3.5.1 ZIP.
+* Remove the DSS 3.5.1 ZIP.
+* Expose the container port `9443` `11111` `9999` `4000`
+* Set the Data Services Server `wso2server.sh` start-up script as the container start-up command.
 
 ### Usage
 * To pull: `docker pull massimodanieli/wso2dss`
 * To build: `docker build --rm -t your_image_name github.com/massimodanieli/docker-wso2dss`
 * To run: `docker run --rm --name your_container_name -p 9443:9443 your_image_name`
-* To access API Manager web admin console, navigate to `https://localhost:9443`
+* To access Data Services Server web admin console, navigate to `https://localhost:9443`
 
